@@ -56,7 +56,7 @@ on *:sockclose:geticon: {
 RAW 005:*ICON=*:{
   var %i = 1
   while ($gettok($1-,%i,32) != $null) {
-    if ($left($gettok($1-,%i,32),5) == ICON=) {
+    if ($left($gettok($1-,%i,32),5) == draft/ICON=) {
 
       ;; mIRC sucks, I had to do this just to split up the
       ;; ICON token and correctly parse the given URL
