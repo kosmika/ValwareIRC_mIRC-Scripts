@@ -3,7 +3,7 @@
 ;; your server supports ICON and you're running this script, this will get
 ;; the image and apply it automatically.
 ;;
-;; (c) Valware 2024
+;; (c) Valware 2024-2025
 
 alias geticon {
   ; socket is already open
